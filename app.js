@@ -63,13 +63,13 @@ console.log("EXERCISE 4:\n=============\n");
 
 function triangleType(side1, side2, side3) {
     if (side1 + side2 <= side3 || side1 + side3 <= side2 || side2 + side3 <= side1) {
-        return "Invalid triangle";
+        console.log(`Invalid triangle`);
     } else if (side1 === side2 && side2 === side3) {
-        return "Equilateral triangle";
+        console.log(`Equilateral triangle`);
     } else if (side1 === side2 || side1 === side3 || side2 === side3) {
-        return "Isosceles triangle";
+        console.log(`Isosceles triangle`);
     } else {
-        return "Scalene triangle";
+        console.log(`Scalene triangle`);
     }
 }
 
