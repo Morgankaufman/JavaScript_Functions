@@ -18,6 +18,10 @@ function printOdd(count){
     }
 }
 
+printOdd(100);
+printOdd(-100);
+
+
 // Exercise 2 Section
 console.log("EXERCISE 2:\n==========\n");
 
@@ -36,6 +40,10 @@ let belowSixteen = `Sorry ${userName}, but you need to wait until you're 16.`;
         console.log(aboveSixteen);
     }
 }
+
+canDrive("Chris", 30);
+canDrive("Luna", 4);
+
 
 console.log("EXERCISE 3:\n==========\n");
 
@@ -58,6 +66,14 @@ function whatQuadrant(x, y){
     }
 }
 
+whatQuadrant(15, 0);
+whatQuadrant(-7, 30);
+whatQuadrant(10, 4);
+whatQuadrant(8, -2);
+whatQuadrant(-5, -3);
+
+
+
 console.log("EXERCISE 4:\n=============\n");
 
 
@@ -72,6 +88,10 @@ function triangleType(side1, side2, side3) {
         console.log(`Scalene triangle`);
     }
 }
+
+triangleType(3,4,5);
+triangleType(2,2,6);
+triangleType(7,4,14);
 
 
 console.log("EXERCISE 5:\n===========\n");
@@ -96,4 +116,8 @@ function dataUsage(planLimit, day, usage) {
         console.log(`You can afford to use up to ${maxDailyUsageToStayBelowPlan.toFixed(2)} GB/day.`);
     }
 }
+
+dataUsage(50, 15, 20);
+dataUsage(100,2,5);
+dataUsage(25,7,3);
 
